@@ -6,6 +6,7 @@
 
 body{
   background-image: url('https://www.unanessunacentomila.it/wp-content/uploads/2017/06/foglio-bianco.jpg');
+
 }
 
 li{
@@ -14,7 +15,8 @@ li{
   display: flex;
   justify-content: space-between;
   font-size: 20px;
-  color: blue;
+  color: rgb(255, 252, 252);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 span:hover{
@@ -36,7 +38,7 @@ header{
 }
 
 .container-title{
-  background-color: rgba(243, 0, 0, 0.151);
+  background-color: rgba(0, 0, 0, 0.705);
   border-radius: 10px;
   width: 80%;
   display: flex;
@@ -48,7 +50,7 @@ header{
 .title{
   font-weight: bold;
   font-size: 50px;
-  color: blue;
+  color: rgb(255, 255, 255);
 }
 
 /*Input*/
@@ -57,8 +59,9 @@ header{
   padding: 7px 10px;
   margin-left: 10px;
   font-size: medium;
-  background-color:lightgray;
-  color: black;
+  border-radius: 100%;
+  background-color:rgba(0, 0, 0, 0.705);
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -81,6 +84,7 @@ header{
 main{
   display: flex;
   justify-content: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 main i{
@@ -102,7 +106,7 @@ main i{
 .container-list{
   width: 80%;
   height:650px;
-  background-color: rgba(243, 0, 0, 0.151);
+  background-color: rgba(0, 0, 0, 0.705);
   border-radius: 10px;
 }
 
@@ -116,4 +120,8 @@ main i{
 .fa-solid.fa-trash-can:hover{
   color: red;
   cursor: pointer;
+}
+
+h3{
+  color: gray;
 }
